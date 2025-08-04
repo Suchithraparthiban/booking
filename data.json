@@ -1,0 +1,784 @@
+{
+  "destinations": [
+    
+    {
+      "name": "Meenakshi Temple",
+      "city": "Madurai",
+      "keywords": ["temple", "spiritual", "meenakshi"],
+      "description": "Historic Hindu temple with intricate architecture and rich history.",
+      "image": "https://example.com/meenakshi.jpg"
+    },
+    {
+      "name": "CN Tower",
+      "city": "Toronto",
+      "keywords": ["city", "tower", "toronto"],
+      "description": "Iconic landmark in Toronto with a panoramic view of the city.",
+      "image": "https://example.com/cn.jpg"
+    },
+    
+    {
+      "name": "Marina Beach",
+      "city": "Chennai",
+      "keywords": ["beach", "marina", "sea", "chennai", "coast"],
+      "description": "One of Asia’s longest beaches with golden sands and stunning sunrises.",
+      "image": "https://s7ap1.scene7.com/is/image/incredibleindia/marina-beach-chennai-tamil-nadu-4-attr-hero?qlt=82&ts=1726655007714"
+    },
+    {
+      "name": "Meenakshi Amman Temple",
+      "city": "Madurai",
+      "keywords": ["temple", "spiritual", "meenakshi", "madurai", "hindu"],
+      "description": "A historic Hindu temple known for its towering gopurams and intricate sculptures.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Meenakshi_Temple_Madurai.jpg"
+    },
+    {
+      "name": "CN Tower",
+      "city": "Toronto",
+      "keywords": ["city", "toronto", "tower", "canada", "landmark"],
+      "description": "An iconic tower in Toronto offering 360-degree city views and the thrilling EdgeWalk.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/CN_Tower_%28Toronto%29.jpg"
+    },
+    {
+      "name": "Varkala Beach",
+      "city": "Kerala",
+      "keywords": ["beach", "varkala", "cliff", "kerala", "sea"],
+      "description": "A serene beach town with red cliffs, ayurvedic spas, and oceanfront cafes.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Varkala_beach.jpg"
+    },
+    {
+      "name": "Kedarnath Temple",
+      "city": "Uttarakhand",
+      "keywords": ["temple", "kedarnath", "pilgrimage", "mountain", "himalaya"],
+      "description": "One of the holiest Hindu shrines, nestled in the Himalayan ranges.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Kedarnath_Temple.jpg"
+    },
+    {
+      "name": "Golden Gate Bridge",
+      "city": "San Francisco",
+      "keywords": ["bridge", "san francisco", "golden gate", "usa", "city"],
+      "description": "A stunning architectural marvel and one of the most photographed bridges in the world.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg"
+    },
+    {
+      "name": "Mysore Palace",
+      "city": "Mysuru",
+      "keywords": ["palace", "mysore", "heritage", "karnataka", "royal"],
+      "description": "A magnificent royal residence showcasing Indo-Saracenic architecture and grandeur.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Mysore_Palace_India.jpg"
+    },
+    {
+      "name": "Charminar",
+      "city": "Hyderabad",
+      "keywords": ["charminar", "monument", "hyderabad", "heritage"],
+      "description": "A historical monument and symbol of Hyderabad’s cultural fusion.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Charminar_Hyderabad_1.jpg"
+    },
+    {
+      "name": "Manali",
+      "city": "Himachal Pradesh",
+      "keywords": ["manali", "hill station", "snow", "mountain", "hiking"],
+      "description": "A picturesque hill station with snow-capped mountains, rivers, and adventure sports.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Manali_Himachal_Pradesh.jpg"
+    },
+    {
+      "name": "Baga Beach",
+      "city": "Goa",
+      "keywords": ["beach", "goa", "baga", "sea", "party"],
+      "description": "A lively beach in Goa famous for nightlife, water sports, and food shacks.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Baga_Beach_Goa.jpg"
+    
+    },
+    {
+      "name": "Gokarna Beach #1",
+      "city": "Karnataka",
+      "keywords": ["beach", "gokarna", "karnataka"],
+      "description": "Gokarna Beach in Karnataka is a popular beach destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Gokarna+Beach"
+    },
+    {
+      "name": "Varkala Beach #2",
+      "city": "Kerala",
+      "keywords": ["beach", "varkala", "kerala"],
+      "description": "Varkala Beach in Kerala is a popular beach destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Varkala+Beach"
+    },
+    {
+      "name": "Radhanagar Beach #3",
+      "city": "Andaman",
+      "keywords": ["beach", "radhanagar", "andaman"],
+      "description": "Radhanagar Beach in Andaman is a popular beach destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Radhanagar+Beach"
+    },
+    {
+      "name": "Palolem Beach #4",
+      "city": "Goa",
+      "keywords": ["beach", "palolem", "goa"],
+      "description": "Palolem Beach in Goa is a popular beach destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Palolem+Beach"
+    },
+    {
+      "name": "Puri Beach #5",
+      "city": "Odisha",
+      "keywords": ["beach", "puri", "odisha"],
+      "description": "Puri Beach in Odisha is a popular beach destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Puri+Beach"
+    },
+    {
+      "name": "Puri Beach #6",
+      "city": "Odisha",
+      "keywords": ["beach", "puri", "odisha"],
+      "description": "Puri Beach in Odisha is a popular beach destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Puri+Beach"
+    },
+    {
+      "name": "Tarkarli Beach #7",
+      "city": "Maharashtra",
+      "keywords": ["beach", "tarkarli", "maharashtra"],
+      "description": "Tarkarli Beach in Maharashtra is a popular beach destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Tarkarli+Beach"
+    },
+    {
+      "name": "Palolem Beach #8",
+      "city": "Goa",
+      "keywords": ["beach", "palolem", "goa"],
+      "description": "Palolem Beach in Goa is a popular beach destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Palolem+Beach"
+    },
+    {
+      "name": "Baga Beach #9",
+      "city": "Goa",
+      "keywords": ["beach", "baga", "goa"],
+      "description": "Baga Beach in Goa is a popular beach destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Baga+Beach"
+    },
+    
+    {
+      "name": "Gokarna Beach #11",
+      "city": "Karnataka",
+      "keywords": ["beach", "gokarna", "karnataka"],
+      "description": "Gokarna Beach in Karnataka is a popular beach destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Gokarna+Beach"
+    },
+    {
+      "name": "Tarkarli Beach #12",
+      "city": "Maharashtra",
+      "keywords": ["beach", "tarkarli", "maharashtra"],
+      "description": "Tarkarli Beach in Maharashtra is a popular beach destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Tarkarli+Beach"
+    },
+    {
+      "name": "Baga Beach #13",
+      "city": "Goa",
+      "keywords": ["beach", "baga", "goa"],
+      "description": "Baga Beach in Goa is a popular beach destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Baga+Beach"
+    },
+    {
+      "name": "Palolem Beach #14",
+      "city": "Goa",
+      "keywords": ["beach", "palolem", "goa"],
+      "description": "Palolem Beach in Goa is a popular beach destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Palolem+Beach"
+    },
+    {
+      "name": "Baga Beach #15",
+      "city": "Goa",
+      "keywords": ["beach", "baga", "goa"],
+      "description": "Baga Beach in Goa is a popular beach destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Baga+Beach"
+    },
+    {
+      "name": "Tarkarli Beach #16",
+      "city": "Maharashtra",
+      "keywords": ["beach", "tarkarli", "maharashtra"],
+      "description": "Tarkarli Beach in Maharashtra is a popular beach destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Tarkarli+Beach"
+    },
+    
+    {
+      "name": "Gokarna Beach #18",
+      "city": "Karnataka",
+      "keywords": ["beach", "gokarna", "karnataka"],
+      "description": "Gokarna Beach in Karnataka is a popular beach destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Gokarna+Beach"
+    },
+    {
+      "name": "Baga Beach #19",
+      "city": "Goa",
+      "keywords": ["beach", "baga", "goa"],
+      "description": "Baga Beach in Goa is a popular beach destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Baga+Beach"
+    },
+    {
+      "name": "Alappuzha Beach #20",
+      "city": "Kerala",
+      "keywords": ["beach", "alappuzha", "kerala"],
+      "description": "Alappuzha Beach in Kerala is a popular beach destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Alappuzha+Beach"
+    },
+    {
+      "name": "Somnath Temple #1",
+      "city": "Gujarat",
+      "keywords": ["temple", "somnath", "gujarat"],
+      "description": "Somnath Temple in Gujarat is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Somnath+Temple"
+    },
+    {
+      "name": "Vaishno Devi #2",
+      "city": "Jammu",
+      "keywords": ["temple", "vaishno", "jammu"],
+      "description": "Vaishno Devi in Jammu is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Vaishno+Devi"
+    },
+    {
+      "name": "Jagannath Temple #3",
+      "city": "Puri",
+      "keywords": ["temple", "jagannath", "puri"],
+      "description": "Jagannath Temple in Puri is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Jagannath+Temple"
+    },
+    {
+      "name": "Jagannath Temple #4",
+      "city": "Puri",
+      "keywords": ["temple", "jagannath", "puri"],
+      "description": "Jagannath Temple in Puri is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Jagannath+Temple"
+    },
+    {
+      "name": "Vaishno Devi #5",
+      "city": "Jammu",
+      "keywords": ["temple", "vaishno", "jammu"],
+      "description": "Vaishno Devi in Jammu is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Vaishno+Devi"
+    },
+    {
+      "name": "Meenakshi Temple #6",
+      "city": "Madurai",
+      "keywords": ["temple", "meenakshi", "madurai"],
+      "description": "Meenakshi Temple in Madurai is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Meenakshi+Temple"
+    },
+    {
+      "name": "Jagannath Temple #7",
+      "city": "Puri",
+      "keywords": ["temple", "jagannath", "puri"],
+      "description": "Jagannath Temple in Puri is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Jagannath+Temple"
+    },
+    {
+      "name": "Akshardham Temple #8",
+      "city": "Delhi",
+      "keywords": ["temple", "akshardham", "delhi"],
+      "description": "Akshardham Temple in Delhi is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Akshardham+Temple"
+    },
+    {
+      "name": "Sun Temple #9",
+      "city": "Konark",
+      "keywords": ["temple", "sun", "konark"],
+      "description": "Sun Temple in Konark is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Sun+Temple"
+    },
+    {
+      "name": "Jagannath Temple #10",
+      "city": "Puri",
+      "keywords": ["temple", "jagannath", "puri"],
+      "description": "Jagannath Temple in Puri is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Jagannath+Temple"
+    },
+    {
+      "name": "Meenakshi Temple #11",
+      "city": "Madurai",
+      "keywords": ["temple", "meenakshi", "madurai"],
+      "description": "Meenakshi Temple in Madurai is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Meenakshi+Temple"
+    },
+    {
+      "name": "Ramanathaswamy Temple #12",
+      "city": "Rameswaram",
+      "keywords": ["temple", "ramanathaswamy", "rameswaram"],
+      "description": "Ramanathaswamy Temple in Rameswaram is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Ramanathaswamy+Temple"
+    },
+    {
+      "name": "Vaishno Devi #13",
+      "city": "Jammu",
+      "keywords": ["temple", "vaishno", "jammu"],
+      "description": "Vaishno Devi in Jammu is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Vaishno+Devi"
+    },
+    {
+      "name": "Somnath Temple #14",
+      "city": "Gujarat",
+      "keywords": ["temple", "somnath", "gujarat"],
+      "description": "Somnath Temple in Gujarat is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Somnath+Temple"
+    },
+    {
+      "name": "Brihadeeswarar Temple #15",
+      "city": "Thanjavur",
+      "keywords": ["temple", "brihadeeswarar", "thanjavur"],
+      "description": "Brihadeeswarar Temple in Thanjavur is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Brihadeeswarar+Temple"
+    },
+    {
+      "name": "Sun Temple #16",
+      "city": "Konark",
+      "keywords": ["temple", "sun", "konark"],
+      "description": "Sun Temple in Konark is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Sun+Temple"
+    },
+    {
+      "name": "Ramanathaswamy Temple #17",
+      "city": "Rameswaram",
+      "keywords": ["temple", "ramanathaswamy", "rameswaram"],
+      "description": "Ramanathaswamy Temple in Rameswaram is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Ramanathaswamy+Temple"
+    },
+    {
+      "name": "Akshardham Temple #18",
+      "city": "Delhi",
+      "keywords": ["temple", "akshardham", "delhi"],
+      "description": "Akshardham Temple in Delhi is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Akshardham+Temple"
+    },
+    {
+      "name": "Somnath Temple #19",
+      "city": "Gujarat",
+      "keywords": ["temple", "somnath", "gujarat"],
+      "description": "Somnath Temple in Gujarat is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Somnath+Temple"
+    },
+    {
+      "name": "Ramanathaswamy Temple #20",
+      "city": "Rameswaram",
+      "keywords": ["temple", "ramanathaswamy", "rameswaram"],
+      "description": "Ramanathaswamy Temple in Rameswaram is a popular temple destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Ramanathaswamy+Temple"
+    },
+    {
+      "name": "CN Tower #1",
+      "city": "Toronto",
+      "keywords": ["city", "cn", "toronto"],
+      "description": "CN Tower in Toronto is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=CN+Tower"
+    },
+    {
+      "name": "Burj Khalifa #2",
+      "city": "Dubai",
+      "keywords": ["city", "burj", "dubai"],
+      "description": "Burj Khalifa in Dubai is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Burj+Khalifa"
+    },
+    {
+      "name": "Gateway of India #3",
+      "city": "Mumbai",
+      "keywords": ["city", "gateway", "mumbai"],
+      "description": "Gateway of India in Mumbai is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Gateway+of+India"
+    },
+    {
+      "name": "Cyber Towers #4",
+      "city": "Hyderabad",
+      "keywords": ["city", "cyber", "hyderabad"],
+      "description": "Cyber Towers in Hyderabad is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Cyber+Towers"
+    },
+    {
+      "name": "India Gate #5",
+      "city": "Delhi",
+      "keywords": ["city", "india", "delhi"],
+      "description": "India Gate in Delhi is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=India+Gate"
+    },
+    {
+      "name": "Statue of Unity #6",
+      "city": "Gujarat",
+      "keywords": ["city", "statue", "gujarat"],
+      "description": "Statue of Unity in Gujarat is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Statue+of+Unity"
+    },
+    {
+      "name": "Howrah Bridge #7",
+      "city": "Kolkata",
+      "keywords": ["city", "howrah", "kolkata"],
+      "description": "Howrah Bridge in Kolkata is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Howrah+Bridge"
+    },
+    {
+      "name": "Howrah Bridge #8",
+      "city": "Kolkata",
+      "keywords": ["city", "howrah", "kolkata"],
+      "description": "Howrah Bridge in Kolkata is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Howrah+Bridge"
+    },
+    {
+      "name": "Cyber Towers #9",
+      "city": "Hyderabad",
+      "keywords": ["city", "cyber", "hyderabad"],
+      "description": "Cyber Towers in Hyderabad is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Cyber+Towers"
+    },
+    {
+      "name": "Burj Khalifa #10",
+      "city": "Dubai",
+      "keywords": ["city", "burj", "dubai"],
+      "description": "Burj Khalifa in Dubai is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Burj+Khalifa"
+    },
+    {
+      "name": "Vidhana Soudha #11",
+      "city": "Bangalore",
+      "keywords": ["city", "vidhana", "bangalore"],
+      "description": "Vidhana Soudha in Bangalore is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Vidhana+Soudha"
+    },
+    {
+      "name": "Howrah Bridge #12",
+      "city": "Kolkata",
+      "keywords": ["city", "howrah", "kolkata"],
+      "description": "Howrah Bridge in Kolkata is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Howrah+Bridge"
+    },
+    {
+      "name": "CN Tower #13",
+      "city": "Toronto",
+      "keywords": ["city", "cn", "toronto"],
+      "description": "CN Tower in Toronto is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=CN+Tower"
+    },
+    {
+      "name": "CN Tower #14",
+      "city": "Toronto",
+      "keywords": ["city", "cn", "toronto"],
+      "description": "CN Tower in Toronto is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=CN+Tower"
+    },
+    {
+      "name": "CN Tower #15",
+      "city": "Toronto",
+      "keywords": ["city", "cn", "toronto"],
+      "description": "CN Tower in Toronto is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=CN+Tower"
+    },
+    {
+      "name": "Statue of Unity #16",
+      "city": "Gujarat",
+      "keywords": ["city", "statue", "gujarat"],
+      "description": "Statue of Unity in Gujarat is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Statue+of+Unity"
+    },
+    {
+      "name": "Howrah Bridge #17",
+      "city": "Kolkata",
+      "keywords": ["city", "howrah", "kolkata"],
+      "description": "Howrah Bridge in Kolkata is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Howrah+Bridge"
+    },
+    {
+      "name": "Gateway of India #18",
+      "city": "Mumbai",
+      "keywords": ["city", "gateway", "mumbai"],
+      "description": "Gateway of India in Mumbai is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Gateway+of+India"
+    },
+    {
+      "name": "Gateway of India #19",
+      "city": "Mumbai",
+      "keywords": ["city", "gateway", "mumbai"],
+      "description": "Gateway of India in Mumbai is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Gateway+of+India"
+    },
+    {
+      "name": "CN Tower #20",
+      "city": "Toronto",
+      "keywords": ["city", "cn", "toronto"],
+      "description": "CN Tower in Toronto is a popular city destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=CN+Tower"
+    },
+    {
+      "name": "Fatehpur Sikri #1",
+      "city": "Uttar Pradesh",
+      "keywords": ["heritage", "fatehpur", "uttar pradesh"],
+      "description": "Fatehpur Sikri in Uttar Pradesh is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Fatehpur+Sikri"
+    },
+    {
+      "name": "Mahabalipuram #2",
+      "city": "Tamil Nadu",
+      "keywords": ["heritage", "mahabalipuram", "tamil nadu"],
+      "description": "Mahabalipuram in Tamil Nadu is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Mahabalipuram"
+    },
+    {
+      "name": "Mahabalipuram #3",
+      "city": "Tamil Nadu",
+      "keywords": ["heritage", "mahabalipuram", "tamil nadu"],
+      "description": "Mahabalipuram in Tamil Nadu is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Mahabalipuram"
+    },
+    {
+      "name": "Red Fort #4",
+      "city": "Delhi",
+      "keywords": ["heritage", "red", "delhi"],
+      "description": "Red Fort in Delhi is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Red+Fort"
+    },
+    {
+      "name": "Mahabalipuram #5",
+      "city": "Tamil Nadu",
+      "keywords": ["heritage", "mahabalipuram", "tamil nadu"],
+      "description": "Mahabalipuram in Tamil Nadu is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Mahabalipuram"
+    },
+    {
+      "name": "Sanchi Stupa #6",
+      "city": "Madhya Pradesh",
+      "keywords": ["heritage", "sanchi", "madhya pradesh"],
+      "description": "Sanchi Stupa in Madhya Pradesh is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Sanchi+Stupa"
+    },
+    {
+      "name": "Amber Fort #7",
+      "city": "Jaipur",
+      "keywords": ["heritage", "amber", "jaipur"],
+      "description": "Amber Fort in Jaipur is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Amber+Fort"
+    },
+    {
+      "name": "Mahabalipuram #8",
+      "city": "Tamil Nadu",
+      "keywords": ["heritage", "mahabalipuram", "tamil nadu"],
+      "description": "Mahabalipuram in Tamil Nadu is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Mahabalipuram"
+    },
+    {
+      "name": "Fatehpur Sikri #9",
+      "city": "Uttar Pradesh",
+      "keywords": ["heritage", "fatehpur", "uttar pradesh"],
+      "description": "Fatehpur Sikri in Uttar Pradesh is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Fatehpur+Sikri"
+    },
+    {
+      "name": "Fatehpur Sikri #10",
+      "city": "Uttar Pradesh",
+      "keywords": ["heritage", "fatehpur", "uttar pradesh"],
+      "description": "Fatehpur Sikri in Uttar Pradesh is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Fatehpur+Sikri"
+    },
+    {
+      "name": "Amber Fort #11",
+      "city": "Jaipur",
+      "keywords": ["heritage", "amber", "jaipur"],
+      "description": "Amber Fort in Jaipur is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Amber+Fort"
+    },
+    {
+      "name": "Red Fort #12",
+      "city": "Delhi",
+      "keywords": ["heritage", "red", "delhi"],
+      "description": "Red Fort in Delhi is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Red+Fort"
+    },
+    {
+      "name": "Qutub Minar #13",
+      "city": "Delhi",
+      "keywords": ["heritage", "qutub", "delhi"],
+      "description": "Qutub Minar in Delhi is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Qutub+Minar"
+    },
+    {
+      "name": "Fatehpur Sikri #14",
+      "city": "Uttar Pradesh",
+      "keywords": ["heritage", "fatehpur", "uttar pradesh"],
+      "description": "Fatehpur Sikri in Uttar Pradesh is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Fatehpur+Sikri"
+    },
+    {
+      "name": "Gol Gumbaz #15",
+      "city": "Karnataka",
+      "keywords": ["heritage", "gol", "karnataka"],
+      "description": "Gol Gumbaz in Karnataka is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Gol+Gumbaz"
+    },
+    {
+      "name": "Red Fort #16",
+      "city": "Delhi",
+      "keywords": ["heritage", "red", "delhi"],
+      "description": "Red Fort in Delhi is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Red+Fort"
+    },
+    {
+      "name": "Amber Fort #17",
+      "city": "Jaipur",
+      "keywords": ["heritage", "amber", "jaipur"],
+      "description": "Amber Fort in Jaipur is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Amber+Fort"
+    },
+    {
+      "name": "Red Fort #18",
+      "city": "Delhi",
+      "keywords": ["heritage", "red", "delhi"],
+      "description": "Red Fort in Delhi is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Red+Fort"
+    },
+    {
+      "name": "Amber Fort #19",
+      "city": "Jaipur",
+      "keywords": ["heritage", "amber", "jaipur"],
+      "description": "Amber Fort in Jaipur is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Amber+Fort"
+    },
+    {
+      "name": "Amber Fort #20",
+      "city": "Jaipur",
+      "keywords": ["heritage", "amber", "jaipur"],
+      "description": "Amber Fort in Jaipur is a popular heritage destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Amber+Fort"
+    },
+    {
+      "name": "Shimla #1",
+      "city": "Himachal Pradesh",
+      "keywords": ["hill", "shimla", "himachal pradesh"],
+      "description": "Shimla in Himachal Pradesh is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Shimla"
+    },
+    {
+      "name": "Coorg #2",
+      "city": "Karnataka",
+      "keywords": ["hill", "coorg", "karnataka"],
+      "description": "Coorg in Karnataka is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Coorg"
+    },
+    {
+      "name": "Mount Abu #3",
+      "city": "Rajasthan",
+      "keywords": ["hill", "mount", "rajasthan"],
+      "description": "Mount Abu in Rajasthan is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Mount+Abu"
+    },
+    {
+      "name": "Gangtok #4",
+      "city": "Sikkim",
+      "keywords": ["hill", "gangtok", "sikkim"],
+      "description": "Gangtok in Sikkim is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Gangtok"
+    },
+    {
+      "name": "Darjeeling #5",
+      "city": "West Bengal",
+      "keywords": ["hill", "darjeeling", "west bengal"],
+      "description": "Darjeeling in West Bengal is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Darjeeling"
+    },
+    {
+      "name": "Shimla #6",
+      "city": "Himachal Pradesh",
+      "keywords": ["hill", "shimla", "himachal pradesh"],
+      "description": "Shimla in Himachal Pradesh is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Shimla"
+    },
+    {
+      "name": "Darjeeling #7",
+      "city": "West Bengal",
+      "keywords": ["hill", "darjeeling", "west bengal"],
+      "description": "Darjeeling in West Bengal is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Darjeeling"
+    },
+    {
+      "name": "Nainital #8",
+      "city": "Uttarakhand",
+      "keywords": ["hill", "nainital", "uttarakhand"],
+      "description": "Nainital in Uttarakhand is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Nainital"
+    },
+    {
+      "name": "Mount Abu #9",
+      "city": "Rajasthan",
+      "keywords": ["hill", "mount", "rajasthan"],
+      "description": "Mount Abu in Rajasthan is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Mount+Abu"
+    },
+    {
+      "name": "Gangtok #10",
+      "city": "Sikkim",
+      "keywords": ["hill", "gangtok", "sikkim"],
+      "description": "Gangtok in Sikkim is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Gangtok"
+    },
+    {
+      "name": "Mount Abu #11",
+      "city": "Rajasthan",
+      "keywords": ["hill", "mount", "rajasthan"],
+      "description": "Mount Abu in Rajasthan is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Mount+Abu"
+    },
+    {
+      "name": "Lonavala #12",
+      "city": "Maharashtra",
+      "keywords": ["hill", "lonavala", "maharashtra"],
+      "description": "Lonavala in Maharashtra is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Lonavala"
+    },
+    {
+      "name": "Shimla #13",
+      "city": "Himachal Pradesh",
+      "keywords": ["hill", "shimla", "himachal pradesh"],
+      "description": "Shimla in Himachal Pradesh is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Shimla"
+    },
+    {
+      "name": "Ooty #14",
+      "city": "Tamil Nadu",
+      "keywords": ["hill", "ooty", "tamil nadu"],
+      "description": "Ooty in Tamil Nadu is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Ooty"
+    },
+    {
+      "name": "Munnar #15",
+      "city": "Kerala",
+      "keywords": ["hill", "munnar", "kerala"],
+      "description": "Munnar in Kerala is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Munnar"
+    },
+    {
+      "name": "Manali #16",
+      "city": "Himachal Pradesh",
+      "keywords": ["hill", "manali", "himachal pradesh"],
+      "description": "Manali in Himachal Pradesh is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Manali"
+    },
+    {
+      "name": "Coorg #17",
+      "city": "Karnataka",
+      "keywords": ["hill", "coorg", "karnataka"],
+      "description": "Coorg in Karnataka is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Coorg"
+    },
+    {
+      "name": "Shimla #18",
+      "city": "Himachal Pradesh",
+      "keywords": ["hill", "shimla", "himachal pradesh"],
+      "description": "Shimla in Himachal Pradesh is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Shimla"
+    },
+    {
+      "name": "Shimla #19",
+      "city": "Himachal Pradesh",
+      "keywords": ["hill", "shimla", "himachal pradesh"],
+      "description": "Shimla in Himachal Pradesh is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Shimla"
+    },
+    {
+      "name": "Coorg #20",
+      "city": "Karnataka",
+      "keywords": ["hill", "coorg", "karnataka"],
+      "description": "Coorg in Karnataka is a popular hill destination known for its beauty and significance.",
+      "image": "https://via.placeholder.com/400x250?text=Coorg"
+    }
+  ]
+}
+
+  
+
+
+
