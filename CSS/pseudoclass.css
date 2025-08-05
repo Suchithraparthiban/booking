@@ -1,0 +1,28 @@
+/* a:link{
+    color: brown;
+}
+a:visited{
+    color: aquamarine;
+} */
+/* a:active{
+    color: blue;
+} */
+/* a:hover{
+    font-size: large;
+} */
+ /* p:hover{
+    display: inline;
+ } */
+ /* p:hover{
+    display: block;
+ } */
+ span{
+    display: none;
+    border: 1px solid black;
+ }
+ /* span:hover{
+    display: block;
+ } */
+ button:hover+span{
+    display: inline;
+ }

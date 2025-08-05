@@ -1,0 +1,11 @@
+/* div>span>p{
+    background-color: aqua;
+} */
+
+/* div>span>p+b{
+    background-color: blanchedalmond;
+} */
+
+div>span>p+p~b{
+    background-color: aquamarine;
+}

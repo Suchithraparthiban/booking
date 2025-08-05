@@ -1,0 +1,23 @@
+/* id name selector
+#para1{
+    background-color: aqua;
+}
+/* clas name selector */
+/* .para{
+    background-color: aquamarine;
+} */
+/* tag name selector */
+/* p{
+    background-color: bisque;
+} */
+/* universal selector */
+/* *{
+    background-color: antiquewhite;
+} */
+/* grouping */
+/* html,body,para{
+    border: 1px black;
+} */
+span,article,#para3{
+    background-color: brown;
+} 

@@ -1,0 +1,46 @@
+#navigation{
+    border: 1px solid black;
+    background-color: aqua;
+}
+.navchild{
+    border: 1px solid black;
+    display: inline-block;
+    width: 295px;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+}
+#home-content{
+    border: 1px solid black;
+    height: 100vh;
+}
+#popup{
+    border: 1px solid black;
+    background-color: aqua;
+    position: absolute;
+    left: 0px;
+    width: 295px;
+    top: 50px;
+    display: none;
+}
+#popup2{
+    
+        border: 1px solid black;
+        background-color: aqua;
+        position: absolute;
+        left:0px;
+        width: 295px;
+        top: 50px;
+        display: none;
+    
+}
+#navitem5,#navchild4{
+    position: relative;
+}
+#anchor1:hover+#popup{
+display: block;
+}
+#anchor2:hover+#popup2{
+    display: block; 
+}
+

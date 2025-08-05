@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        FORM{
+            text-align: justify;
+            width: 2000px;
+        }
+        label{
+            width: 100px;
+            display: inline-block;
+            text-align: start;
+        }
+        address{
+            text-align: center ;
+        }
+thead{
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <fieldset>
+  <form action="#"method="get" autocomplete="on">
+    <br>
+    <br>
+    <TABLE>
+        <tbody>
+            <tr>
+    <label for="fullname">fullname</label>
+    <input type="text"name="user-name" id="fullname" enabled placeholder="enterfullname"/>(max 20 char a-z char A-Z)
+    </tr>
+  <br/>
+  <br>
+  <tr>
+  <label for="lastname">lastname</label>
+    <input type="text"name="user-name" id="lastname" enabled placeholder="enter lastname"/>(max 20 char a-z char A-Z)
+</tr>
+    <br/>
+    <br>
+    <label for="date of birth">date of birth</label>
+<input type="date"name="user_dob"id="date of birth" enabled placeholder="enter dob">
+<br>
+<br>
+<label for="female_gen">GENDER</label>
+<input type="radio"name="gender" id="male_gen" value="male"/>male
+<input type="radio"name="gender" id="female_gen" value="female"/>female
+<br>
+<br>
+<label for="email">EMAIL ID</label>
+<input type="email"name="user_email"id="email" enabled placeholder="enter emailid">
+<br>
+<br>
+<label for="mobile">MOBILE NO</label>
+<input type="tele" name="user_mobile" id="mobile" pattern="[0-9]{10}" enabled placeholder="enter mobileno">
+<br>
+<br>
+<label for="address">ADDRESS</label>
+
+      <textarea name="user_address" rows="5" cols="40"></textarea>
+<BR>
+<BR>
+    <label for="CITY">CITY</label>
+    <input type="text"name="user-city" id="CITY" enabled placeholder="entercity"/>(max 20 char a-z char A-Z)
+  <br/>
+  <br>
+  <label for="pincode">pincode</label>
+  <input type="number"name="user-pincode" id="pincode" enabled placeholder="enter pincode"/>(6 digit number)
+<br/>
+<br>
+<label for="state">state</label>
+<input type="text"name="user-state" id="state" enabled placeholder="enter state"/>
+<br/>
+<br>
+<label for="country">country</label>
+<input type="text"name="user-country" id="country" enabled placeholder="entercountry"/>
+<br/>
+<br>
+<label for="hobbies">hobbies</label>
+<input type="checkbox"name="hobbies"id="hobbies_dancing" value="dancing">dancing
+<input type="checkbox"name="hobbies"id="hobbies_singing" value="singing">singing
+<input type="checkbox"name="hobbies"id="hobbies_others" value="others">others
+<br>
+<br>
+<label for="qualification">qualification</label>
+<table>
+    <thead>
+        <tr>
+            <th>s.no</th>
+            <th>examination</th>
+            <th>board</th>
+            <th>percentage</th>
+            <th>year of passing</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>01</th>
+            <th>class x</th>
+            <th><input type="text"name="user-board" id="board"/></th>
+            <th><input type="number"name="user-percentage" id="percentage"/></th>
+            <th><input type="number"name="user-year of passing" id="year of passing"/></th>
+        </tr>
+        <tr>
+            <th>02</th>
+            <th>class 11</th>
+            <th><input type="text"name="user-board" id="board"/></th>
+            <th><input type="number"name="user-percentage" id="percentage"/></th>
+            <th><input type="number"name="user-year of passing" id="year of passing"/></th>
+        </tr>
+        <tr>
+            <th>03</th>
+            <th>graduation</th>
+            <th><input type="text"name="user-board" id="board"/></th>
+            <th><input type="number"name="user-percentage" id="percentage"/></th>
+            <th><input type="number"name="user-year of passing" id="year of passing"/></th>
+        </tr>
+        <tr>
+            <th>04</th>
+            <th>master</th>
+            <th><input type="text"name="user-board" id="board"/></th>
+            <th><input type="number"name="user-percentage" id="percentage"/></th>
+            <th><input type="number"name="user-year of passing" id="year of passing"/></th>
+        </tr>
+    </tbody>
+</table>
+<br>
+<br>
+<label for="courses applied for">courses applied for</label>
+<input type="checkbox"name="courses applied for"id="courses applied for_bca" value="bca">bca
+<input type="checkbox"name="courses applied for"id="courses applied for_bcom" value="bcom">bcom
+<input type="checkbox"name="courses applied for"id="courses applied for_bsc" value="bsc">bsc
+<input type="checkbox"name="courses applied for"id="courses applied for_ba" value="ba">ba
+<br>
+<br>
+<input type="submit">
+<input type="reset" >
+    </TABLE>
+  </form>
+  </fieldset>
+</body>
+</html>

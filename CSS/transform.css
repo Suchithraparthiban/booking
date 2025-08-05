@@ -1,0 +1,13 @@
+p{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    transition: 2s;
+}
+p:hover{
+    /* transform: translateX(250px); */
+    background-color: antiquewhite;
+    /* transform: translate(250px,250px); */
+    transform: rotatez(150deg);
+}

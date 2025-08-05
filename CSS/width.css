@@ -1,0 +1,17 @@
+section{
+    border: 1px solid black;
+    background-color: aqua;
+}
+article{
+    border: 1px solid black ;
+    background-color: #DCDDE1;
+   max-width: 500px;
+    display: inline-block;
+
+}
+/* {
+    border: 1px solid black ;
+    background-color: yellow;
+    max-width: 500px;
+    display: inline-block;
+} */

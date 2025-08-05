@@ -1,0 +1,44 @@
+/* p{
+    border: 10px solid red;
+    padding: 20px  80px ;
+    background-color:black;
+    color: aqua;
+    margin: 1   0px ;
+}
+section{
+    background-color: aquamarine;
+    border: 7px solid grey;
+    
+    padding: 10px 20px;
+    text-align: center;
+} */
+
+.grand{
+    border: 1px solid black;
+    background-color: aqua;
+   
+}
+.parent{
+    border: 1px solid black;
+    padding:25px;
+}
+.child{
+    border: 1px solid  black;
+    display: inline-block;
+    background-color: yellow;
+    padding: 20px;
+}
+.child p{
+   
+    max-width:350px;
+    padding: 30px;
+    display:inline-block;
+    background-color: antiquewhite;
+    border-style: double;
+    border-color: red;
+    border-top-left-radius: 50px;
+}
+.child .c1{
+    margin-left:80px;
+    margin-right: 8dvh;
+}       

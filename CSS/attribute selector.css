@@ -1,0 +1,25 @@
+/* img{
+    height: 200px;
+    width: 200px;
+} */
+/* img[alt]{
+    border: 5pxsolid red;
+} */
+/* img[alt="s"]{
+    border: 5pxsolid red;
+} */
+/* img[alt="fry"]{
+    border: 5px brown;
+} */
+/* img[alt$="fry"]{
+    border: 5px blue;
+} */
+/* img[alt~="italian"]{
+    border: 5px black;
+} */
+/* img[alt|="italian"]{
+    border: 5px black;
+} */
+ /* img[alt*="dish"]{
+    border: 5px black;
+ } */

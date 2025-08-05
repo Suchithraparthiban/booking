@@ -1,0 +1,87 @@
+.first {
+  height: 100vh;
+}
+nav {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 100vw;
+}
+h2 {
+  color: white;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+}
+h1 {
+  text-align: center;
+  padding-top: 100px;
+  transition: 2s;
+}
+h1:hover {
+  transform: rotatez(150deg);
+}
+
+.skew {
+  background-color: aqua;
+  display: flex;
+  height: 100vh;
+}
+
+.skew p {
+  height: 200px;
+  width: 400px;
+  border: 1px solid black;
+  text-align: center;
+  align-items: center;
+  padding: 100px;
+  margin: 80px;
+  transition: 1s;
+}
+
+p:hover {
+  transform: skewX(50deg);
+}
+.reg {
+  display: none;
+}
+a:hover .reg {
+  display: block;
+}
+
+.child {
+  display: inline-block;
+  width: 300px;
+  height: 600px;
+  position: relative;
+  left: 350px;
+  border: 1px solid white;
+  margin: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 00px 30px 1px rgb(174, 173, 173);
+  background-color: white;
+}
+.scale {
+  background-color: bisque;
+  height: 100vh;
+}
+.child img {
+  height: 250px;
+  width: 300px;
+}
+.child button {
+  margin-left: 100px;
+  color: white;
+  background-color: rgb(91, 189, 219);
+  padding: 10px;
+  border-radius: 5px;
+}
+button {
+  margin-top: 50px;
+}
+.scale {
+  transition: 1s;
+}
+.child:hover {
+  transform: scale(1.1);
+}

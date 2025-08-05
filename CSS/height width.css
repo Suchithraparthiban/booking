@@ -1,0 +1,16 @@
+ol{
+    border: 1px solid red;
+    height: 200px;
+    overflow: scroll;
+    margin:50px 200px;
+
+}
+h1{
+    text-align: center;
+    background-color: #DCDDE1;
+    border: 1px solid black;
+}
+table
+{
+    border: 2px solid red;
+}

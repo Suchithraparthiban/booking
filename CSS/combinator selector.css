@@ -1,0 +1,20 @@
+/* descendent selector
+div p{
+    background-color: aqua;
+}
+/* child selector */
+/* div>p{
+    background-color: brown;
+} */
+/* adjacent sibliung selector */
+/* div+p{
+    background-color: aquamarine;
+} */
+/* p+p{
+    background-color: antiquewhite;
+
+} */
+/* general sibling selector */
+div~p{
+    background-color: blue;
+} 

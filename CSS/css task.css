@@ -1,0 +1,120 @@
+
+body{
+  background-color: #293f50;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0px;
+  
+}
+#whole{
+  height: 60vh;
+}
+#one{
+  border-top: 4px solid #648880;
+  width:250px;
+}
+.first h1{
+  font-weight: lighter;
+  color: white;
+  margin-bottom: -20px;
+  margin-left: 400px;
+}
+.first p{
+  margin-left: 65em;
+  margin-top: -50px;
+  color: #538780;
+  font: inherit;
+  
+}
+.first nav{
+  margin-left: 53em;
+  word-spacing: 5px;
+  color: white;
+}
+.second h3{
+  text-align: center;
+  color: gray;
+  font-size: 30px;
+  color: #538780;
+}
+.second p{
+  margin-left: 200px;
+  margin-right: 200px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.second button{
+  margin-left: 700px;
+  padding: 10px;
+  background-color: #293f50;
+  border-color: white;
+  color: white;
+  margin-top: 40px;
+
+}
+.third{
+  border: 1px solid black;
+  width: 100vw;
+  height: 400px;
+  background-color: white;
+  margin-top: 20px;
+  display: flex;
+  margin: 0px;
+  color: black;
+}
+.third #image1 p{
+  border: 1px solid white;
+  width:300px;
+  line-height: 20px;
+  color: black;
+}
+.third #image2 p{
+  border: 1px solid white;
+  width: 330px;
+  line-height: 20px;
+  color: black;
+}
+.third #image2 img{
+  height: 209px;
+  width: 300px;
+}
+.third #image3 p{
+  border: 1px solid white;
+  width: 330px;
+  line-height: 20px;
+  color: black;
+}
+.third #image3 img{
+  height: 200px;
+  width: 300px;
+}
+.fourth{
+  display: flex;
+}
+.third #image1 img{
+  height: 200px;
+  width: 300px;
+}
+.third #image1{
+   padding-left: 150px;
+}
+#last{
+padding-left: 300px;
+padding-top: 50px;
+color: white;
+}
+.fourth{
+height: 100px;}
+#style{
+padding-left: 400px;
+padding-top: 50px;
+color: #538780;}
+.third{
+padding: 10px;
+padding-left: 60px;}
+a{
+  text-decoration: none;
+  color: white;
+}

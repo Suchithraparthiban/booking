@@ -1,0 +1,58 @@
+#main,button{
+    color: #926239;
+    font-size: x-large;
+}
+button{
+    border-radius: 100%;
+}
+#main{
+    height: 400PX;
+    padding:16%;
+    line-height:0.5;
+}   
+button:hover{
+   background-color:  #926239;
+   color: white;
+
+}
+
+#first,#second,#third
+{
+
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 20PX;
+    padding-bottom: 20PX;
+    font-size: medium;
+}
+article{
+    border: 1px solid white ;
+    
+   max-width: 496px;
+   display: inline-block;
+}
+#first{
+    
+    
+    padding-top: 20PX;
+    padding-bottom: 20PX;
+    background-color: #926239;
+    text-align: center;
+    color:white;
+    
+    
+}
+#second{
+    padding-top: 20PX;
+    padding-bottom: 20PX;
+    color: #926239;
+}
+#firsec,#thirfir{
+    padding-top: 20PX;
+    padding-bottom: 20PX;
+    background-color: #926239;
+    color: white;
+}
+#secfir{
+    color: #926239;
+}

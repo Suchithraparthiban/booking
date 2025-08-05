@@ -1,0 +1,11 @@
+div{
+    height: 100vh;
+    border: 5px solid black;
+}
+button:hover{
+    background-color: aquamarine;
+}
+button:hover+div{
+    color: black;
+    background-color: aquamarine;
+}

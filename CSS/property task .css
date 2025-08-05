@@ -1,0 +1,47 @@
+div{
+    border: 10px dashed black;
+    height: 90vh;
+
+}
+h1{
+    text-align: center;
+}
+
+#img{
+   
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRENhjURKB1CV-XC6h-E3kRcmf799GETBHrNg&s"),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1qDDIWdyOK-jl9d6ZgpohmfIviudaWyO2EA&s"),
+    url("https://pixabay.com/photos/sea-man-sunset-vacation-ocean-7914544");
+    background-repeat: no-repeat,no-repeat;
+    background-position: top left,bottom right;
+    background-attachment: fixed,fixed;
+    background-size: 500px,500px;
+    background-clip: content-box,content-box;
+    padding-left: 22px; 
+    padding-top: 22px;
+    padding-right: 22px;
+    padding-bottom: 22px;
+}  
+#sm{
+    background-image: url("https://media.istockphoto.com/id/1159026915/photo/man-on-a-vessel-sailing-the-sea.jpg?s=2048x2048&w=is&k=20&c=ic_CbgJiHhzYHAn3hjXBiIX7ozc5ujabL49SlGIUtX0=");
+    background-size: 500px,500px;
+    background-repeat: no-repeat,no-repeat;
+    background-position: center,center;
+    background-attachment: fixed,fixed;
+    
+    height: 100vh;
+
+    
+}
+
+p{
+    color: blueviolet;
+    word-spacing: 10px;
+    line-height: 35px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px blueviolet;
+    padding: 50px 50px;
+    position: center,center;
+ 
+  text-align: center;
+
+}
